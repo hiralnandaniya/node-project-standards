@@ -5,5 +5,5 @@ PostgreSQL Naming Rules
 •	The names containing other characters can be formed by surrounding them with double quotes (“).  For example, Table or column names may contain other disallowed characters such as spaces, ampersands(&), etc., we can use these characters if quoted.
 •	PostgreSQL stores all the table and column names in lowercase. If we run a select query with uppercase against Postgres, the query will fail saying the column or the table doesn’t exist
 •	column name must be proper. For ex, description please don't use desc 
-• For column name and table name use lower case and underscore (_).
+•  For column name and table name use lower case and underscore (_).
 
