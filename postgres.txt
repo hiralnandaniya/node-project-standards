@@ -1,0 +1,8 @@
+PostgreSQL Naming Rules
+
+•	Names in PostgreSQL must begin with a letter (a-z) or underscore (_).
+•	The subsequent characters in a name can be letters, digits (0-9), or underscores.
+•	The names containing other characters can be formed by surrounding them with double quotes (“).  For example, Table or column names may contain other disallowed characters such as spaces, ampersands(&), etc., we can use these characters if quoted.
+•	PostgreSQL stores all the table and column names in lowercase. If we run a select query with uppercase against Postgres, the query will fail saying the column or the table doesn’t exist
+
+
